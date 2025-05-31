@@ -1688,6 +1688,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1744462754}
     - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_defaultBoxColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
       propertyPath: m_environmentRaycast
       value: 
       objectReference: {fileID: 1721288809}
@@ -1696,20 +1700,44 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1373946501}
     - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[2].Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[2].Color.g
+      value: 0.8597734
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[2].Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[3].Color.b
+      value: 0.015686274
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[3].Color.g
+      value: 0.7975167
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
       propertyPath: OnObjectsDetected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 6846995557286463107}
     - target: {fileID: 2681575481727882275, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
       propertyPath: OnnxModel
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 51b657017375a8e4f87890db2b532db0, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 96871a76f87766945be26983dc618d2c, type: 3}
     - target: {fileID: 2681575481727882275, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
       propertyPath: m_iouThreshold
-      value: 0.479
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2681575481727882275, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
       propertyPath: m_layersPerFrame
-      value: 10
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2681575481727882275, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_scoreThreshold
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4976470222712890361, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
       propertyPath: m_webCamTextureManager

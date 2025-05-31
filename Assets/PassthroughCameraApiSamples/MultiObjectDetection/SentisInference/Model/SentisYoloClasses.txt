@@ -1,4 +1,8 @@
-Fire-extinguisher
-fire bucket
+cylinder
+hose
+pin
+trigger
 0
 1
+2
+3
