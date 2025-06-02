@@ -1470,6 +1470,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1744462753}
     m_Modifications:
+    - target: {fileID: 1784151354240486895, guid: 259c0c899b7e0c14aa431eefdc0aacc6, type: 3}
+      propertyPath: m_Text
+      value: '-----------------------------------------------------------
+
+        <b>FIRE
+        EXTINGUISHER COMPONENT DETECTION</b>
+
+        -----------------------------------------------------------'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447241005283040037, guid: 259c0c899b7e0c14aa431eefdc0aacc6, type: 3}
+      propertyPath: m_Text
+      value: Look at a <b>FIRE EXTINGUISHER</b> through your <b>VR</b> in your surroundings,
+        to start the detection of components.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185259287786992558, guid: 259c0c899b7e0c14aa431eefdc0aacc6, type: 3}
+      propertyPath: m_Text
+      value: '-----------------------------------------------------------
+
+        <b>FIRE
+        EXTINGUISHER COMPONENT DETECTION</b>
+
+        -----------------------------------------------------------'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5319885961176894441, guid: 259c0c899b7e0c14aa431eefdc0aacc6, type: 3}
+      propertyPath: m_Text
+      value: '-----------------------------------------------------------
+
+        <b>FIRE
+        EXTINGUISHER COMPONENT DETECTION</b>
+
+        -----------------------------------------------------------'
+      objectReference: {fileID: 0}
     - target: {fileID: 5846769668076299689, guid: 259c0c899b7e0c14aa431eefdc0aacc6, type: 3}
       propertyPath: OnPause.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1566,6 +1598,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1744462754}
+    - target: {fileID: 8732696856089016153, guid: 259c0c899b7e0c14aa431eefdc0aacc6, type: 3}
+      propertyPath: m_Text
+      value: This application requires SPATIAL DATA and CAMERA permissions. Please
+        launch the app again or reinstall it to allow both permissions.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1688,6 +1725,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1744462754}
     - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
       propertyPath: m_defaultBoxColor.a
       value: 0
       objectReference: {fileID: 0}
@@ -1700,24 +1749,112 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1373946501}
     - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
-      propertyPath: m_classColors.Array.data[2].Color.b
+      propertyPath: m_classColors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[0].Color.b
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
-      propertyPath: m_classColors.Array.data[2].Color.g
-      value: 0.8597734
+      propertyPath: m_classColors.Array.data[0].Color.g
+      value: 0.051886797
       objectReference: {fileID: 0}
     - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
-      propertyPath: m_classColors.Array.data[2].Color.r
+      propertyPath: m_classColors.Array.data[0].Color.r
+      value: 0.8517904
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[1].Color.b
+      value: 0.05098039
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[1].Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[1].Color.r
+      value: 0.8309779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[2].Color.b
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[2].Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[2].Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
       propertyPath: m_classColors.Array.data[3].Color.b
-      value: 0.015686274
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
       propertyPath: m_classColors.Array.data[3].Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[3].Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[4].Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[4].Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[4].Color.g
+      value: 0.8597734
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[4].Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[5].Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[5].Color.b
+      value: 0.015686274
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[5].Color.g
       value: 0.7975167
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[5].Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[0].ClassName
+      value: CO2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[1].ClassName
+      value: DRYPOWDER
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[2].ClassName
+      value: cylinder
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[3].ClassName
+      value: hose
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[4].ClassName
+      value: pin
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
+      propertyPath: m_classColors.Array.data[5].ClassName
+      value: trigger
       objectReference: {fileID: 0}
     - target: {fileID: 2184060436030677583, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
       propertyPath: OnObjectsDetected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1726,7 +1863,7 @@ PrefabInstance:
     - target: {fileID: 2681575481727882275, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
       propertyPath: OnnxModel
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 96871a76f87766945be26983dc618d2c, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 960555612ca55694f9d7c3b6b656ede9, type: 3}
     - target: {fileID: 2681575481727882275, guid: 927c1b782bb796b4b9b433d533cbccca, type: 3}
       propertyPath: m_iouThreshold
       value: 0.3

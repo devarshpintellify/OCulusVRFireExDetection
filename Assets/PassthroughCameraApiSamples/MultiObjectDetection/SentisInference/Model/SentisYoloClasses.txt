@@ -1,3 +1,5 @@
+CO2
+DRYPOWDER
 cylinder
 hose
 pin
@@ -6,3 +8,5 @@ trigger
 1
 2
 3
+4
+5

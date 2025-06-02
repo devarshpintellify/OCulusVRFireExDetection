@@ -28,13 +28,13 @@ namespace PassthroughCameraSamples.MultiObjectDetection
 
         [Header("Class-specific box colors")]
         [SerializeField]
-        private List<ClassColorPair> m_classColors = new List<ClassColorPair>
-        {
-            new ClassColorPair { ClassName = "cylinder", Color = Color.red },
-            new ClassColorPair { ClassName = "hose", Color = Color.blue },
-            new ClassColorPair { ClassName = "pin", Color = Color.green },
-            new ClassColorPair { ClassName = "trigger", Color = Color.yellow }
-        };
+        private List<ClassColorPair> m_classColors = new List<ClassColorPair>();
+        //{
+        //    new ClassColorPair { ClassName = "cylinder", Color = Color.red },
+        //    new ClassColorPair { ClassName = "hose", Color = Color.blue },
+        //    new ClassColorPair { ClassName = "pin", Color = Color.green },
+        //    new ClassColorPair { ClassName = "trigger", Color = Color.yellow }
+        //};
 
         [System.Serializable]
         private struct ClassColorPair
@@ -250,7 +250,7 @@ namespace PassthroughCameraSamples.MultiObjectDetection
             text.transform.SetParent(panel.transform, false);
             var txt = text.AddComponent<Text>();
             txt.font = m_font;
-            txt.color = m_fontColor;
+            txt.color = color;//m_fontColor;
             txt.fontSize = m_fontSize;
             txt.horizontalOverflow = HorizontalWrapMode.Overflow;
 
@@ -267,7 +267,7 @@ namespace PassthroughCameraSamples.MultiObjectDetection
         }
         #endregion
     }
-    //#region OLDCODE
+    #region OLDCODE
     //[MetaCodeSample("PassthroughCameraApiSamples-MultiObjectDetection")]
     //public class SentisInferenceUiManager : MonoBehaviour
     //{
@@ -482,5 +482,5 @@ namespace PassthroughCameraSamples.MultiObjectDetection
     //    }
     //    #endregion
     //} 
-    //#endregion
+    #endregion
 }
